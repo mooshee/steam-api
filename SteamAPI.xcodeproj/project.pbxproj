@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6A8F17019C73DF700865BE2 /* libSteamAPI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A8F14C19C73D3900865BE2 /* libSteamAPI.a */; };
+		A6A8F17319C73E9800865BE2 /* SteamAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A8F17219C73E9800865BE2 /* SteamAPIClient.m */; };
+		A6A8F17719C73EA600865BE2 /* SteamAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A8F17519C73EA600865BE2 /* SteamAPITests.m */; };
+		A6A8F17919C741EC00865BE2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A8F17819C741EC00865BE2 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6A8F16E19C73DF100865BE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6A8F14419C73D3900865BE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6A8F14B19C73D3900865BE2;
+			remoteInfo = SteamAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A6A8F14A19C73D3900865BE2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		46DD9735B6164B6A814C5D9F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		987D130D11C14A0A9ADF9382 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		A6A8F14C19C73D3900865BE2 /* libSteamAPI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSteamAPI.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A8F15719C73D3900865BE2 /* SteamAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SteamAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A8F17119C73E9800865BE2 /* SteamAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SteamAPIClient.h; path = SteamAPI/SteamAPIClient.h; sourceTree = "<group>"; };
+		A6A8F17219C73E9800865BE2 /* SteamAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SteamAPIClient.m; path = SteamAPI/SteamAPIClient.m; sourceTree = "<group>"; };
+		A6A8F17419C73EA600865BE2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SteamAPITests/Info.plist; sourceTree = SOURCE_ROOT; };
+		A6A8F17519C73EA600865BE2 /* SteamAPITests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SteamAPITests.m; path = SteamAPITests/SteamAPITests.m; sourceTree = SOURCE_ROOT; };
+		A6A8F17819C741EC00865BE2 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6A8F14919C73D3900865BE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A8F17919C741EC00865BE2 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6A8F15419C73D3900865BE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A8F17019C73DF700865BE2 /* libSteamAPI.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3535BA248D63415B8416DF3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6A8F17819C741EC00865BE2 /* libPods.a */,
+				46DD9735B6164B6A814C5D9F /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6A8F14319C73D3900865BE2 = {
+			isa = PBXGroup;
+			children = (
+				A6A8F16319C73D9200865BE2 /* SteamAPI */,
+				A6A8F16B19C73D9200865BE2 /* SteamAPITests */,
+				A6A8F14D19C73D3900865BE2 /* Products */,
+				987D130D11C14A0A9ADF9382 /* Pods.xcconfig */,
+				3535BA248D63415B8416DF3C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A6A8F14D19C73D3900865BE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6A8F14C19C73D3900865BE2 /* libSteamAPI.a */,
+				A6A8F15719C73D3900865BE2 /* SteamAPITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6A8F16319C73D9200865BE2 /* SteamAPI */ = {
+			isa = PBXGroup;
+			children = (
+				A6A8F17119C73E9800865BE2 /* SteamAPIClient.h */,
+				A6A8F17219C73E9800865BE2 /* SteamAPIClient.m */,
+			);
+			name = SteamAPI;
+			sourceTree = "<group>";
+		};
+		A6A8F16B19C73D9200865BE2 /* SteamAPITests */ = {
+			isa = PBXGroup;
+			children = (
+				A6A8F17419C73EA600865BE2 /* Info.plist */,
+				A6A8F17519C73EA600865BE2 /* SteamAPITests.m */,
+			);
+			name = SteamAPITests;
+			path = ../SteamAPITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6A8F14B19C73D3900865BE2 /* SteamAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6A8F15D19C73D3900865BE2 /* Build configuration list for PBXNativeTarget "SteamAPI" */;
+			buildPhases = (
+				AFAD42226A6B4688A0FF624B /* Check Pods Manifest.lock */,
+				A6A8F14819C73D3900865BE2 /* Sources */,
+				A6A8F14919C73D3900865BE2 /* Frameworks */,
+				A6A8F14A19C73D3900865BE2 /* CopyFiles */,
+				1242A27951CE4DA5BC92FB31 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SteamAPI;
+			productName = SteamAPI;
+			productReference = A6A8F14C19C73D3900865BE2 /* libSteamAPI.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A6A8F15619C73D3900865BE2 /* SteamAPITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6A8F16019C73D3900865BE2 /* Build configuration list for PBXNativeTarget "SteamAPITests" */;
+			buildPhases = (
+				A6A8F15319C73D3900865BE2 /* Sources */,
+				A6A8F15419C73D3900865BE2 /* Frameworks */,
+				A6A8F15519C73D3900865BE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6A8F16F19C73DF100865BE2 /* PBXTargetDependency */,
+			);
+			name = SteamAPITests;
+			productName = SteamAPITests;
+			productReference = A6A8F15719C73D3900865BE2 /* SteamAPITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6A8F14419C73D3900865BE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Grepstar LLC";
+				TargetAttributes = {
+					A6A8F14B19C73D3900865BE2 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					A6A8F15619C73D3900865BE2 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = A6A8F14719C73D3900865BE2 /* Build configuration list for PBXProject "SteamAPI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6A8F14319C73D3900865BE2;
+			productRefGroup = A6A8F14D19C73D3900865BE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6A8F14B19C73D3900865BE2 /* SteamAPI */,
+				A6A8F15619C73D3900865BE2 /* SteamAPITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6A8F15519C73D3900865BE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1242A27951CE4DA5BC92FB31 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFAD42226A6B4688A0FF624B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6A8F14819C73D3900865BE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A8F17319C73E9800865BE2 /* SteamAPIClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6A8F15319C73D3900865BE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A8F17719C73EA600865BE2 /* SteamAPITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6A8F16F19C73DF100865BE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6A8F14B19C73D3900865BE2 /* SteamAPI */;
+			targetProxy = A6A8F16E19C73DF100865BE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A6A8F15B19C73D3900865BE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A6A8F15C19C73D3900865BE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6A8F15E19C73D3900865BE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 987D130D11C14A0A9ADF9382 /* Pods.xcconfig */;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A6A8F15F19C73D3900865BE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 987D130D11C14A0A9ADF9382 /* Pods.xcconfig */;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A6A8F16119C73D3900865BE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 987D130D11C14A0A9ADF9382 /* Pods.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SteamAPITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A6A8F16219C73D3900865BE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 987D130D11C14A0A9ADF9382 /* Pods.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SteamAPITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6A8F14719C73D3900865BE2 /* Build configuration list for PBXProject "SteamAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A8F15B19C73D3900865BE2 /* Debug */,
+				A6A8F15C19C73D3900865BE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6A8F15D19C73D3900865BE2 /* Build configuration list for PBXNativeTarget "SteamAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A8F15E19C73D3900865BE2 /* Debug */,
+				A6A8F15F19C73D3900865BE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6A8F16019C73D3900865BE2 /* Build configuration list for PBXNativeTarget "SteamAPITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A8F16119C73D3900865BE2 /* Debug */,
+				A6A8F16219C73D3900865BE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6A8F14419C73D3900865BE2 /* Project object */;
+}
