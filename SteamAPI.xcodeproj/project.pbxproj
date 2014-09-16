@@ -11,10 +11,26 @@
 		A6A8F17319C73E9800865BE2 /* SteamAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A8F17219C73E9800865BE2 /* SteamAPIClient.m */; };
 		A6A8F17719C73EA600865BE2 /* SteamAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A8F17519C73EA600865BE2 /* SteamAPITests.m */; };
 		A6A8F17919C741EC00865BE2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A8F17819C741EC00865BE2 /* libPods.a */; };
+		A6F865CB19C75112003BE138 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F865CA19C75112003BE138 /* main.m */; };
+		A6F865CE19C75112003BE138 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F865CD19C75112003BE138 /* AppDelegate.m */; };
+		A6F865D119C75112003BE138 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F865D019C75112003BE138 /* MasterViewController.m */; };
+		A6F865D419C75112003BE138 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F865D319C75112003BE138 /* DetailViewController.m */; };
+		A6F865D719C75112003BE138 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6F865D519C75112003BE138 /* Main.storyboard */; };
+		A6F865D919C75112003BE138 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6F865D819C75112003BE138 /* Images.xcassets */; };
+		A6F865EE19C7512D003BE138 /* libSteamAPI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A8F14C19C73D3900865BE2 /* libSteamAPI.a */; };
+		A6F865F319C7526F003BE138 /* SteamAPIClient.h in Headers */ = {isa = PBXBuildFile; fileRef = A6A8F17119C73E9800865BE2 /* SteamAPIClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6F865F619C7A62F003BE138 /* NSUserDefaults+Parameters.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F865F519C7A62F003BE138 /* NSUserDefaults+Parameters.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		A6A8F16E19C73DF100865BE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6A8F14419C73D3900865BE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6A8F14B19C73D3900865BE2;
+			remoteInfo = SteamAPI;
+		};
+		A6F865EC19C75127003BE138 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A6A8F14419C73D3900865BE2 /* Project object */;
 			proxyType = 1;
@@ -45,6 +61,20 @@
 		A6A8F17419C73EA600865BE2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SteamAPITests/Info.plist; sourceTree = SOURCE_ROOT; };
 		A6A8F17519C73EA600865BE2 /* SteamAPITests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SteamAPITests.m; path = SteamAPITests/SteamAPITests.m; sourceTree = SOURCE_ROOT; };
 		A6A8F17819C741EC00865BE2 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
+		A6F865C619C75112003BE138 /* SteamAPIExplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SteamAPIExplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6F865C919C75112003BE138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6F865CA19C75112003BE138 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6F865CC19C75112003BE138 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A6F865CD19C75112003BE138 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A6F865CF19C75112003BE138 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		A6F865D019C75112003BE138 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		A6F865D219C75112003BE138 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		A6F865D319C75112003BE138 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		A6F865D619C75112003BE138 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6F865D819C75112003BE138 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A6F865EF19C751D1003BE138 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
+		A6F865F419C7A62F003BE138 /* NSUserDefaults+Parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+Parameters.h"; sourceTree = "<group>"; };
+		A6F865F519C7A62F003BE138 /* NSUserDefaults+Parameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+Parameters.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,12 +94,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A6F865C319C75112003BE138 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F865EE19C7512D003BE138 /* libSteamAPI.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		3535BA248D63415B8416DF3C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A6F865EF19C751D1003BE138 /* libPods.a */,
 				A6A8F17819C741EC00865BE2 /* libPods.a */,
 				46DD9735B6164B6A814C5D9F /* libPods.a */,
 			);
@@ -81,6 +120,7 @@
 			children = (
 				A6A8F16319C73D9200865BE2 /* SteamAPI */,
 				A6A8F16B19C73D9200865BE2 /* SteamAPITests */,
+				A6F865C719C75112003BE138 /* SteamAPIExplorer */,
 				A6A8F14D19C73D3900865BE2 /* Products */,
 				987D130D11C14A0A9ADF9382 /* Pods.xcconfig */,
 				3535BA248D63415B8416DF3C /* Frameworks */,
@@ -92,6 +132,7 @@
 			children = (
 				A6A8F14C19C73D3900865BE2 /* libSteamAPI.a */,
 				A6A8F15719C73D3900865BE2 /* SteamAPITests.xctest */,
+				A6F865C619C75112003BE138 /* SteamAPIExplorer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,7 +156,45 @@
 			path = ../SteamAPITests;
 			sourceTree = "<group>";
 		};
+		A6F865C719C75112003BE138 /* SteamAPIExplorer */ = {
+			isa = PBXGroup;
+			children = (
+				A6F865CC19C75112003BE138 /* AppDelegate.h */,
+				A6F865CD19C75112003BE138 /* AppDelegate.m */,
+				A6F865CF19C75112003BE138 /* MasterViewController.h */,
+				A6F865D019C75112003BE138 /* MasterViewController.m */,
+				A6F865D219C75112003BE138 /* DetailViewController.h */,
+				A6F865D319C75112003BE138 /* DetailViewController.m */,
+				A6F865D519C75112003BE138 /* Main.storyboard */,
+				A6F865D819C75112003BE138 /* Images.xcassets */,
+				A6F865C819C75112003BE138 /* Supporting Files */,
+				A6F865F419C7A62F003BE138 /* NSUserDefaults+Parameters.h */,
+				A6F865F519C7A62F003BE138 /* NSUserDefaults+Parameters.m */,
+			);
+			path = SteamAPIExplorer;
+			sourceTree = "<group>";
+		};
+		A6F865C819C75112003BE138 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6F865C919C75112003BE138 /* Info.plist */,
+				A6F865CA19C75112003BE138 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A6F865F219C7525F003BE138 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F865F319C7526F003BE138 /* SteamAPIClient.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		A6A8F14B19C73D3900865BE2 /* SteamAPI */ = {
@@ -125,6 +204,7 @@
 				AFAD42226A6B4688A0FF624B /* Check Pods Manifest.lock */,
 				A6A8F14819C73D3900865BE2 /* Sources */,
 				A6A8F14919C73D3900865BE2 /* Frameworks */,
+				A6F865F219C7525F003BE138 /* Headers */,
 				A6A8F14A19C73D3900865BE2 /* CopyFiles */,
 				1242A27951CE4DA5BC92FB31 /* Copy Pods Resources */,
 			);
@@ -155,6 +235,24 @@
 			productReference = A6A8F15719C73D3900865BE2 /* SteamAPITests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		A6F865C519C75112003BE138 /* SteamAPIExplorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6F865E619C75112003BE138 /* Build configuration list for PBXNativeTarget "SteamAPIExplorer" */;
+			buildPhases = (
+				A6F865C219C75112003BE138 /* Sources */,
+				A6F865C319C75112003BE138 /* Frameworks */,
+				A6F865C419C75112003BE138 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6F865ED19C75127003BE138 /* PBXTargetDependency */,
+			);
+			name = SteamAPIExplorer;
+			productName = SteamAPIExplorer;
+			productReference = A6F865C619C75112003BE138 /* SteamAPIExplorer.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -170,6 +268,9 @@
 					A6A8F15619C73D3900865BE2 = {
 						CreatedOnToolsVersion = 6.0;
 					};
+					A6F865C519C75112003BE138 = {
+						CreatedOnToolsVersion = 6.0;
+					};
 				};
 			};
 			buildConfigurationList = A6A8F14719C73D3900865BE2 /* Build configuration list for PBXProject "SteamAPI" */;
@@ -178,6 +279,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = A6A8F14319C73D3900865BE2;
 			productRefGroup = A6A8F14D19C73D3900865BE2 /* Products */;
@@ -186,6 +288,7 @@
 			targets = (
 				A6A8F14B19C73D3900865BE2 /* SteamAPI */,
 				A6A8F15619C73D3900865BE2 /* SteamAPITests */,
+				A6F865C519C75112003BE138 /* SteamAPIExplorer */,
 			);
 		};
 /* End PBXProject section */
@@ -195,6 +298,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6F865C419C75112003BE138 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F865D719C75112003BE138 /* Main.storyboard in Resources */,
+				A6F865D919C75112003BE138 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +362,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A6F865C219C75112003BE138 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F865CE19C75112003BE138 /* AppDelegate.m in Sources */,
+				A6F865D119C75112003BE138 /* MasterViewController.m in Sources */,
+				A6F865F619C7A62F003BE138 /* NSUserDefaults+Parameters.m in Sources */,
+				A6F865CB19C75112003BE138 /* main.m in Sources */,
+				A6F865D419C75112003BE138 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -258,7 +382,23 @@
 			target = A6A8F14B19C73D3900865BE2 /* SteamAPI */;
 			targetProxy = A6A8F16E19C73DF100865BE2 /* PBXContainerItemProxy */;
 		};
+		A6F865ED19C75127003BE138 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6A8F14B19C73D3900865BE2 /* SteamAPI */;
+			targetProxy = A6F865EC19C75127003BE138 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6F865D519C75112003BE138 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6F865D619C75112003BE138 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A6A8F15B19C73D3900865BE2 /* Debug */ = {
@@ -395,6 +535,44 @@
 			};
 			name = Release;
 		};
+		A6F865E719C75112003BE138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 987D130D11C14A0A9ADF9382 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SteamAPIExplorer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A6F865E819C75112003BE138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 987D130D11C14A0A9ADF9382 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = SteamAPIExplorer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -424,6 +602,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		A6F865E619C75112003BE138 /* Build configuration list for PBXNativeTarget "SteamAPIExplorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F865E719C75112003BE138 /* Debug */,
+				A6F865E819C75112003BE138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

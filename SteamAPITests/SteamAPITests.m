@@ -48,8 +48,7 @@
 			 NSArray *methods = interface[@"methods"];
 			 for (NSDictionary *method in methods)
 			 {
-//				 NSLog(@"%@ %@ %@ %@ %@", method[@"httpmethod"], interface[@"name"], method[@"name"], method[@"version"], method[@"parameters"]);
-
+				 NSLog(@"%@ %@ %@ %@ %@", method[@"httpmethod"], interface[@"name"], method[@"name"], method[@"version"], method[@"parameters"]);
 			 }
 		 }
 		 
