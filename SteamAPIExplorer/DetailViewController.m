@@ -99,7 +99,12 @@
 			 [self.tableView beginUpdates];
 			 [self.tableView endUpdates];
 			 
+			 // Scroll response textview to the top
 			 [textView scrollRangeToVisible:NSMakeRange(0, 1)];
+			 
+			 // Scroll down to the text view
+			 NSIndexPath *responseIndexPath = [NSIndexPath indexPathForRow:0 inSection:self.numParameters];
+			 [self.tableView scrollToRowAtIndexPath:responseIndexPath atScrollPosition:UITableViewScrollPositionTop animated:YES];
 		 });
 	 }];
 }
