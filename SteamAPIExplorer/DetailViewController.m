@@ -63,8 +63,6 @@
 			 NSLog(@"%@ %@ %@\n%@ %@", task.originalRequest.HTTPMethod, task.originalRequest.URL.absoluteString, parameters, JSON, error);
 		 }
 		 
-		 
-		 
 		 dispatch_async(dispatch_get_main_queue(), ^{
 			 UITextView *textView = (UITextView *)[self.responseCell viewWithTag:9];
 			 if (JSON) {
@@ -76,6 +74,27 @@
 			 
 			 [textView sizeToFit];
 			 self.responseHeight = textView.bounds.size.height;
+			 
+			 UILabel *headerLabel = [[UILabel alloc] init];
+			 headerLabel.font = [UIFont systemFontOfSize:[UIFont smallSystemFontSize]];
+			 headerLabel.numberOfLines = 0;
+			 headerLabel.text = [NSString stringWithFormat:@"%@ %@", task.originalRequest.HTTPMethod, task.originalRequest.URL.absoluteString];
+			 
+			 NSDictionary *attributes = @{ NSFontAttributeName: headerLabel.font};
+			 CGFloat labelWidth = self.tableView.bounds.size.width - 20.0;
+			 CGRect labelRect = [headerLabel.text boundingRectWithSize:CGSizeMake(labelWidth, CGFLOAT_MAX)
+															   options:NSStringDrawingUsesLineFragmentOrigin
+															attributes:attributes
+															   context:nil];
+			 labelRect.origin.x = 10.0;
+			 labelRect.origin.y	= 10.0;
+			 headerLabel.frame = labelRect;
+			 
+			 UIView *header = [[UIView alloc] init];
+			 header.frame = CGRectMake(0, 0, self.tableView.bounds.size.width, labelRect.size.height + 10.0);
+			 [header addSubview:headerLabel];
+			 
+			 self.tableView.tableHeaderView = header;
 			 
 			 [self.tableView beginUpdates];
 			 [self.tableView endUpdates];
